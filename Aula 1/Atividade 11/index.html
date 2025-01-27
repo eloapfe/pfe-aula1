@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Desconto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cálculo de Desconto</h1>
+    <div>
+        <label for="produto">Selecione a peça:</label>
+        <select id="produto">
+            <option value="Camisa">Camisa</option>
+            <option value="bermuda">Bermuda</option>
+            <option value="calca">Calça</option>
+        </select>
+    </div>
+    <input type="number" id="preco" placeholder="Digite o preço original" required>
+    <button onclick="calcularDesconto()">Calcular Desconto</button>
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+</html>
